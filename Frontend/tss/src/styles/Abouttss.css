@@ -1,0 +1,62 @@
+.tssabout-section {
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+  align-items: center;
+}
+
+.tssabout-images {
+  display: flex;
+  position: relative;
+}
+
+.tss-image {
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.tssabout-content {
+  max-width: 600px;
+}
+
+.tssabout-content p {
+  line-height: 1.8; /* Adjust this value for more or less spacing */
+}
+
+.tssabout-tagline {
+  color: maroon;
+  font-size: 20px;
+}
+
+.tssabout-buttons {
+  margin: 20px 0;
+}
+
+.mission-btn {
+  padding: 10px 20px;
+  border: 1px solid maroon;
+  color: maroon;
+  background: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.mission-section {
+  margin-top: 15px; 
+  padding: 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mission-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.mission-section p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
